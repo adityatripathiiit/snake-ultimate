@@ -1,1 +1,12 @@
-# snake-ultimate
+# Snake-Ultimate (2018)
+We have made a snake game. Where player have to control the snake by using inputs from keyboard. We have created it by using the turtle package of python  and some of the features of pygame. We have added new and amazing features and made the game more interesting.
+
+- Run the file  `snakegame.py` to play the game.
+
+
+THE  GAME IS VERY SHORT JUST FOR THE TESTING PURPOSE. IT CAN BE MADE LONG JUST BY DECREASING THE VALUE OF EACH FOOD EATEN. 
+
+
+## About the Game:  
+
+We have made a ‘snakegame.py’ python file. The purpose of this file is to show a window and execute another file with the help of function ‘execfile’. When this file is executed, it shows the introduction screen. It also informs the player to use “q” to quit the game. This screen tells the payer about the controls and asks the user to continue further. When the player do so, the main game is started and the sound of the main game is also started. The snake can be killed by either hitting with the obstacle, or going out of the canvas, or by the collision of head with the body. This main game is a different python file.  There two different head skins available for the snake, when this main game is executed; it asks the player to the choose any one head. Initially the game starts with level1, there is a snake head, two obstacles, and one food of snake. The position of  first two obstacles in the level1 are fixed. The food is indicated by red coloured circle. Whenever the snake eats the food, a sound is produced. When the snake eats the food, its length increases, and the colour of the body is different every time the game is restarted. On the top of the screen there is the score, high score, and the level. For each, food the score increases by 10 points. After 20 points, level 1 is completed and the player reaches the level 2. Again after 40 points level 2 is finished and level three is started and so on. The obstacles keep on increasing in the successive levels. Also the background is different in different levels. Whenever the snake gets killed, a different image is displayed, depending upon how the snake gets killed and the main game music is stopped. When the snake gets hit by the boundary, it shows different graphics and produces a music. There is  also a different graphic  and same sound when snake cuts its own body. The player can press “q” to quit the game, at any time, this will show another interesting graphic. The high score is updated, when the player breaks the previous high score.  With each 10 points increase in score, the speed of the movement of snake also gets increased. Hence, it becomes tougher for the player to control the snake.
